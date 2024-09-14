@@ -1,8 +1,8 @@
 # MAC Address Manager
 
 This project provides two simple batch scripts to manage MAC addresses on Windows:
-1. **SetRandomMac.bat** - Generates a random MAC address and applies it to a network adapter.
-2. **RestoreDefaultMac.bat** - Restores the network adapter's default (hardware) MAC address by removing the custom MAC setting.
+1. `SetRandomMac.bat` - Generates a random MAC address and applies it to a network adapter.
+2. `RestoreDefaultMac.bat` - Restores the network adapter's default (hardware) MAC address by removing the custom MAC setting.
 
 ## Features
 - **Random MAC Generation:** Automatically generate and set a random MAC address for your network adapter.
@@ -39,3 +39,6 @@ You may need to adjust the subkey (e.g., `0001`) to match the correct network ad
 
 ## Disclaimer
 These scripts modify the Windows registry and may affect your network settings. Use at your own risk and ensure you have backups of any important data.
+
+## License
+MIT License
